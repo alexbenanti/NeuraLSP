@@ -1,38 +1,9 @@
-# Core numerical stack
 numpy>=1.23
 scipy>=1.10
-scipy.sparse
-scipy.sparse.linalg
-scipy.ndimage
-scipy.spatial
-
-# Deep learning
 torch>=2.0
-torch.optim
-torch.nn
-torch.nn.functional
-torch scatter
-
-# Experiment utilities
 tqdm>=4.64
-
-# Plotting / figures
 matplotlib>=3.7
-
-# Results tables / CSVs (keep if you write/read tabular outputs)
 pandas>=2.0
-
-#For timing
-time 
-
-#For AMG comparison 
-pyamg
-
-#For ckpt_utils.py
-pathlib
-typing
-
-re
-os
-datetime
+pyamg>=5.0
+torch-scatter 
 
