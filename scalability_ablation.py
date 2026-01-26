@@ -202,7 +202,7 @@ def solve_with_P(A_csr, b, P, tol=TOL):
 # ==============================================================================
 if __name__ == "__main__":
     # -----------------------
-    # Define models per N (K=N, r=N/2)   ### CHANGED ###
+    # Define models per N (K=N, r=N/2)   
     # -----------------------
     models = {}
     for N in Ns:
@@ -210,8 +210,7 @@ if __name__ == "__main__":
         r_tgt = r_for_N(N)
         n_nodes = (N + 1) ** 2
 
-        # NOTE: This global-MLP architecture scales VERY badly with n_nodes*K_vec.
-        # If you hit memory limits at large N, reduce hidden dims or reduce Ns.
+        
 
         mlp_nested = ProlongationMLP2(K_vec, 128, 256, r_tgt, n_nodes, r_tgt).to(DEVICE)
         name = f"NLSS_N={N}"
@@ -244,7 +243,7 @@ if __name__ == "__main__":
         print(f"  -> {name} train time: {t_train:.2f}s")
 
     # -----------------------
-    # Evaluation stats  ### CHANGED: record coarse_dim ###
+    # Evaluation stats 
     # -----------------------
     USE_ORACLE_SVD = True
     USE_PYAMG = True
