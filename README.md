@@ -1,28 +1,22 @@
-# NeuraLSP
-**NeuraLSP: An Efficient and Rigorous Neural Left Singular Subspace Preconditioner for Conjugate Gradient Methods**
+# NeuraLSP (Anonymous ICML Submission)
 
+**Anonymous repository for double-blind review.**
+This repo will be de-anonymized upon acceptance.
 
-> **TL;DR:** NeuraLSP is a neural preconditioner for Conjugate Gradient (CG) methods that leverages a learned left singular subspace to accelerate convergence while preserving a rigorous solver framework. (See the paper for theory + guarantees.)
+## Overview
+NeuraLSP is a neural preconditioning approach for accelerating Conjugate Gradient (CG) by learning a left singular subspace surrogate used within a rigorous solver framework.
 
----
+## Getting the code
+- Download: use the “Download ZIP” button on the anonymous repository page and unzip locally.
+- (Optional) Clone: `git clone <anonymous_repo_url>`
 
-## What’s in this repo
-This repository contains the reference implementation and experiment scripts for the NeuraLSP paper.
+## Installation
+We recommend creating a fresh environment.
 
-**Main entry points:**
-- `main.py`: runs the trained models and outputs the main results present in the tables of the main paper. 
-- `train_models.py`: trains NeuraLSP models used in the experiments
-- `comparison_test.py`: trains the smaller models and compares the subspace loss and NLSS loss in terms of captured energy
-- `rank_sweep.py`: contains code for running the rank sweeps for the main experiments
-- `scalability_ablation.py`: scalability/ablation experiment script
-
-Outputs and plots are written to `results/` (either generated or precomputed; see below).
-
----
-
-## Quickstart (run a sanity check)
-### 1) Setup
-Please download the repository. 
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install -U pip
 
 
 
