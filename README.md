@@ -14,7 +14,7 @@ This repository contains the reference implementation and experiment scripts for
 - `train_models.py`: trains NeuraLSP models used in the experiments
 - `comparison_test.py`: trains the smaller models and compares the subspace loss and NLSS loss in terms of captured energy
 - `rank_sweep.py`: contains code for running the rank sweeps for the main experiments
-- `scalability_ablation.py`: scalability / ablation experiment script
+- `scalability_ablation.py`: scalability/ablation experiment script
 
 Outputs and plots are written to `results/` (either generated or precomputed; see below).
 
@@ -22,10 +22,9 @@ Outputs and plots are written to `results/` (either generated or precomputed; se
 
 ## Quickstart (run a sanity check)
 ### 1) Setup
-```bash
-git clone https://github.com/alexbenanti/NeuraLSP.git
-cd NeuraLSP
-python -m venv .venv
-source .venv/bin/activate  # (Windows) .venv\Scripts\activate
-pip install -U pip
+Please download the repository. 
+
+
+
+
 
