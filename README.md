@@ -51,7 +51,7 @@ python scalability_ablation.py
 ```
 
 ## Running on Smaller Scale Problems 
-The code is default to run on thr $N=64$ problem with $K=72$. This can be changed to whatever size problem you like; however, you must change the value of ```bash N``` and ```bash K_VECTORS``` in 
+The code defaults to run on the $N=64$ problem with $K=72$. This can be changed to whatever size problem you like; however, you must change the values of ```N``` and ```K_VECTORS``` in ```main.py``` and ```rank_sweep.py```, and ```train_models.py```. Also, you should ensure that the maximal rank in ```RANKS``` does NOT exceed whichever value you selected for ```K_VECTORS```. 
 
 
 
