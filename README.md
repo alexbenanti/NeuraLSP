@@ -37,7 +37,7 @@ To train the models for all PDEs run:
 ```bash
 python train_models.py
 ```
-This may take a while, but it only needs to be done once, as all models are saved via checkpoints after training for each PDE
+This may take a while, but it only needs to be done once, as all models are saved via checkpoints after training for each PDE. Also, please note that ```MLP_NESTED``` refers to our NLSS loss and ```MLP_Unnested``` refers to the subspace loss as referenced in the paper. 
 
 ## Perform Main Experiments
 After the models are trained, you can perform the experiments done in the main body of the paper related to solve time by running main.py
