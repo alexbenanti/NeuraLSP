@@ -31,7 +31,14 @@ To train the models for all PDEs run:
 ```bash
 python train_models.py
 ```
-This may take a while, but only needs to be done once as all models are saved via checkpoints after training for each PDE
+This may take a while, but it only needs to be done once, as all models are saved via checkpoints after training for each PDE
+
+## Perform Experiments
+After the models are trained, you can perform the experiments done in the main body of the paper related to solve time by running main.py
+```bash
+python main.py
+```
+
 
 
 
