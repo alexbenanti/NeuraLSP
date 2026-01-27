@@ -26,6 +26,13 @@ pip install -r requirements.txt
 ```
 NOTE: torch-scatter may require a wheel matching your PyTorch/CUDA version. Install it only if the code imports it (need to comment the line out in requirements.txt)
 
+## Training 
+To train the models for all PDEs run:
+```bash
+python train_models.py
+```
+This may take a while, but only needs to be done once as all models are saved via checkpoints after training for each PDE
+
 
 
 
