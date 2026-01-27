@@ -14,7 +14,7 @@ NeuraLSP is a neural preconditioning approach for accelerating Conjugate Gradien
 * ```results/```: contains main results that were discussed in the paper
 
 ## Getting the code
-- Download: use the “Download ZIP” button on the anonymous repository page and unzip locally.
+- Download: use the “Download Repository” button on the anonymous repository page and unzip locally.
 
 ## Installation
 We recommend creating a fresh environment.
