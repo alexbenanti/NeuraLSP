@@ -17,13 +17,13 @@ We recommend creating a fresh environment.
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -U pip
+```
 
 ## Dependencies
 Install PyTorch then:
-'''bash
+```bash
 pip install -r requirements.txt
-bash'''
-
+```
 NOTE: torch-scatter may require a wheel matching your PyTorch/CUDA version. Install it only if the code imports it (need to comment the line out in requirements.txt)
 
 
