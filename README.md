@@ -44,6 +44,12 @@ To reproduce the results we presented for comparing captured energy of subspace 
 python comparison_test.py
 ```
 
+## Scalability Ablation
+Finally, to run the scalability ablation, please run the following:
+```bash
+python scalability_ablation.py
+```
+
 
 
 
