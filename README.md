@@ -50,6 +50,9 @@ Finally, to run the scalability ablation, please run the following:
 python scalability_ablation.py
 ```
 
+## Running on Smaller Scale Problems 
+The code is default to run on thr $N=64$ problem with $K=72$. This can be changed to whatever size problem you like; however, you must change the value of ```bash N``` and ```bash K_VECTORS``` in 
+
 
 
 
