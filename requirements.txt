@@ -5,5 +5,5 @@ tqdm>=4.64
 matplotlib>=3.7
 pandas>=2.0
 pyamg>=5.0
-#torch-scatter #install depends on torch/cuda. You need this, though, to run GNN baseline
+torch-scatter #install depends on torch/cuda. You need this, though, to run GNN baseline
 
