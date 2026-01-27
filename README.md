@@ -33,11 +33,17 @@ python train_models.py
 ```
 This may take a while, but it only needs to be done once, as all models are saved via checkpoints after training for each PDE
 
-## Perform Experiments
+## Perform Main Experiments
 After the models are trained, you can perform the experiments done in the main body of the paper related to solve time by running main.py
 ```bash
 python main.py
 ```
+## Perform Captured-Energy Comparison Experiments 
+To reproduce the results we presented for comparing captured energy of subspace loss vs. NLSS loss, please run the following code: 
+```bash
+python comparison_test.py
+```
+
 
 
 
