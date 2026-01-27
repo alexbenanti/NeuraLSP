@@ -15,7 +15,6 @@ NeuraLSP is a neural preconditioning approach for accelerating Conjugate Gradien
 
 ## Getting the code
 - Download: use the “Download ZIP” button on the anonymous repository page and unzip locally.
-- (Optional) Clone: `git clone <anonymous_repo_url>`
 
 ## Installation
 We recommend creating a fresh environment.
@@ -31,7 +30,7 @@ Install PyTorch then:
 ```bash
 pip install -r requirements.txt
 ```
-NOTE: torch-scatter may require a wheel matching your PyTorch/CUDA version. Install it only if the code imports it (need to comment the line out in requirements.txt)
+NOTE: torch-scatter may require a wheel matching your PyTorch/CUDA version. If this gives an error, simply comment it out from requirement.txt (however, GNN experiments will not run if you do this)
 
 ## Training 
 To train the models for all PDEs run:
