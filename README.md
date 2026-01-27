@@ -17,7 +17,6 @@ We recommend creating a fresh environment.
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -U pip
-bash'''
 
 ## Dependencies
 Install PyTorch then:
