@@ -11,7 +11,7 @@ NeuraLSP is a neural preconditioning approach for accelerating Conjugate Gradien
 * ```train_models.py```: trains neural models on selected PDEs
 * ```comparison_test.py```: compares captured energy between subspace loss and NLSS loss
 * ```scalability_ablation.py```: runs scalability experiments for varying sizes of $N$
-* ```result/```: contains main results that were discussed in the paper
+* ```results/```: contains main results that were discussed in the paper
 
 ## Getting the code
 - Download: use the “Download ZIP” button on the anonymous repository page and unzip locally.
